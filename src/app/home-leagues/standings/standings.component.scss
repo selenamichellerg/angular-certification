@@ -1,0 +1,24 @@
+.standings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+    .stand {
+        padding: 2rem;
+        cursor: pointer;
+        
+        &.selected {
+            color: blue;
+        }
+    }
+}
+.empty-standings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 20vh;
+    width: 50vw;
+    padding: 4rem;
+}

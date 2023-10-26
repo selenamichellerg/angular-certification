@@ -1,0 +1,18 @@
+.countries {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+
+    .country {
+        padding: 2rem;
+        cursor: pointer;
+        
+        &.selected {
+            color: blue;
+        }
+    }
+}

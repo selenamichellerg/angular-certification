@@ -1,0 +1,17 @@
+.game-results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+    
+    .table-games {
+        width: 60vw;
+        height: auto;
+    }
+
+    .button {
+        margin: 4rem;
+        height: 2rem;
+    }
+}

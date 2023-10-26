@@ -1,0 +1,18 @@
+<div class="home-leagues">
+    <h1>{{ 'football updates' | uppercase }}</h1>
+
+    <div class="content-wrapper">
+        <app-countries
+            [countrySelect]="countrySelect"
+            [leaguesList]="leaguesList$ | async"
+            (countrySelected)="setCountrySelected($event)">
+        </app-countries>
+
+        <app-standings
+            [standingList]="standingList$ | async "
+            [countrySelected]="countrySelect">
+        </app-standings>
+
+        <p>{{standingList$ | async | json }}</p>
+    </div>
+</div>

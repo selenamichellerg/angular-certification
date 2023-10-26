@@ -1,0 +1,21 @@
+.home-leagues {
+    background-image: url('../../assets/img/soccer-wall.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    h1 {
+        color: white;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .content-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem 6rem;
+    }
+}

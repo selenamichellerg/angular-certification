@@ -1,0 +1,11 @@
+<div class="countries">
+    <div 
+        *ngFor="let country of leaguesList"
+        class="country"
+        [attr.id]="country.country+'Select'" 
+        [ngClass]="{'selected' : country.id === countrySelect}"
+        (click)="clickCountry(country.id)"
+        >
+        {{ country.country | titlecase }}
+    </div>
+</div>
